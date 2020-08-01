@@ -1,0 +1,161 @@
+$base-color: #212121;
+$accent-color: rgb(100, 255, 218);
+$elevation: 0 20px 20px rgba(0, 0, 0, 0.4), 0 6px 6px rgba(0, 0, 0, 0.4);
+
+@import "~bootstrap/scss/bootstrap";
+
+/********************************/
+/*          Education           */
+/********************************/
+.education {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 !important;
+  
+    h2 {
+      text-align: left;
+      font-size: 1.5em;
+      color: white;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      font-family: "Roboto Mono", sans-serif;
+    }
+  
+    h5 {
+      font-size: 0.9em;
+      font-family: "Roboto Mono", sans-serif;
+    }
+  
+    h6 {
+      font-size: 0.9em;
+      font-family: "Roboto Mono", sans-serif;
+    }
+  
+    .uni-meta {
+      display: block;
+      text-align: left;
+      text-transform: uppercase;
+      letter-spacing: 0.15em;
+      color: white;
+    }
+  
+    .bullet {
+      color: $accent-color;
+    }
+  
+    .description {
+      margin-top: 15px;
+      text-align: center;
+      color: white;
+      font-family: "Roboto";
+    }
+  }
+  
+  .tabs-left .v-tabs {
+    display: block;
+    position: relative;
+    width: max-content;
+    z-index: 3;
+  
+  
+    li {
+      display: list-item;
+      margin: 0;
+      text-align: -webkit-match-parent;
+  
+      a {
+        display: block;
+        margin-right: 0;
+        border: 0;
+        border-radius: 0;
+        background-color: $base-color;
+  
+        &:hover {
+          background-color: #444;
+        }
+  
+      }
+  
+      button {
+        text-decoration-skip-ink: auto;
+        position: relative;
+        cursor: pointer;
+        display: flex;
+        -webkit-box-align: center;
+        align-items: center;
+        width: 100%;
+        background-color: transparent;
+        height: 42px;
+        text-align: left;
+        white-space: nowrap;
+        font-family: "Roboto Mono", sans-serif;
+        font-size: 13px;
+        color: rgb(51, 63, 88);
+        text-decoration: none;
+        padding: 0px 20px 2px;
+        border: none;
+        border-right: 2px solid rgb(51, 63, 88);
+  
+        &:focus {
+          background-color: #323232;
+          color: $accent-color;
+          border: none;
+          outline: none;
+          border-right: 2px solid $accent-color;
+        }
+      }
+    }
+  
+  
+    .fa-briefcase {
+      color: white;
+    }
+  
+    .active .fa-briefcase {
+      color: $accent-color;
+    }
+  }
+  
+  .v-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+    border: 0;
+  }
+  
+  .tabs-left {
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+  }
+  
+  .tab-content {
+    position: relative;
+    -webkit-box-flex: 1;
+    flex-grow: 1;
+  
+    .tab-pane {
+      padding: 0 10px 10px 10px;
+      width: 100%;
+      height: auto;
+    }
+  
+    .tab-pane2 {
+      padding: 0 10px 10px 10px;
+      width: 100%;
+      height: auto;
+    }
+  
+    .active {
+      display: block;
+    }
+  
+    span {
+      color: white;
+      font-family: "Roboto Mono", sans-serif;
+      display: block;
+      text-align: left;
+    }
+  
+    p {
+      color: white;
+      font-family: "Roboto Mono", sans-serif;
+    }
+  }

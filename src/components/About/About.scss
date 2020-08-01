@@ -1,0 +1,55 @@
+$base-color: #212121;
+$accent-color: rgb(100, 255, 218);
+$elevation: 0 20px 20px rgba(0, 0, 0, 0.4), 0 6px 6px rgba(0, 0, 0, 0.4);
+
+@import "~bootstrap/scss/bootstrap";
+/********************************/
+/*          ABOUT               */
+/********************************/
+header {
+    width: 100%;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    flex-direction: column;
+    align-items: flex-start;
+    min-height: 60vh;
+    margin: 0px auto 0px auto;
+  }
+  
+  .authorName {
+    font-size: 80px;
+    line-height: 1.1;
+    margin: 0px;
+    color: rgb(230, 241, 255);
+    font-family: "Roboto Mono";
+  }
+  
+  .about-me {
+    position: relative;
+    margin: 0px auto;
+    padding: 150px 0px;
+  
+    .text-color {
+      color: $accent-color;
+    }
+  
+    .content-title {
+      font-size: 28px;
+      line-height: 46px;
+    }
+  }
+  
+  .paragraph p {
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 16px;
+    display: table;
+    max-width: 650px;
+    margin-top: 30px;
+  }
+  
+  /********************************/
+  /*          ABOUT Ends          */
+  /********************************/

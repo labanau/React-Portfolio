@@ -1,0 +1,130 @@
+$base-color: #212121;
+$accent-color: rgb(100, 255, 218);
+$elevation: 0 20px 20px rgba(0, 0, 0, 0.4), 0 6px 6px rgba(0, 0, 0, 0.4);
+
+@import "~bootstrap/scss/bootstrap";
+/********************************/
+/*          Contact             */
+/********************************/
+.contact-form-wrap {
+    .form-card {
+      width: 35rem;
+      border-radius: 5px;
+      margin-top: 35px;
+      margin-bottom: 35px;
+      padding: 25px;
+    }
+  
+    .form-group {
+      padding-bottom: 15px;
+      margin: 0px;
+  
+      .form-control {
+        border-radius: 2px;
+        background: #f5f8f9;
+        height: 48px;
+        box-shadow: none;
+        width: 100%;
+      }
+    }
+  
+    .form-group-2 {
+      margin-bottom: 13px;
+  
+      textarea {
+        border-radius: 3px;
+        background-color: #f5f8f9;
+        height: 135px;
+        box-shadow: none;
+        width: 100%;
+      }
+    }
+  }
+  
+  .social-icons {
+    li {
+      margin: 0 6px;
+    }
+  
+    i {
+      margin-right: 15px;
+      font-size: 25px;
+    }
+  }
+  
+  .form-control {
+    box-shadow: none;
+    border-radius: 0;
+  }
+  
+  .py-7 {
+    padding: 7rem 0px;
+  }
+  
+  .btn {
+    display: inline-block;
+    font-size: 14px;
+    font-size: 0.8125rem;
+    font-weight: 400;
+    padding: 1rem 2.5rem;
+    text-transform: uppercase;
+    border-radius: 0;
+    transition: all 0.2s ease;
+  
+    &.btn-icon i {
+      font-size: 16px;
+      vertical-align: middle;
+      margin-right: 5px;
+    }
+  
+    &:focus {
+      outline: 0px;
+      border: 0px;
+      box-shadow: none;
+    }
+  }
+  
+  .btn-main, .btn-transparent, .btn-small {
+    background: #5ae6c4;
+    color: #fff;
+    transition: all 0.2s ease;
+    margin: 0;
+  }
+  
+  .btn-main:hover, .btn-transparent:hover, .btn-small:hover {
+    background: #3c9983;
+    color: #fff;
+  }
+  
+  .btn-large {
+    padding: 20px 45px;
+  
+    &.btn-icon i {
+      font-size: 16px;
+      vertical-align: middle;
+      margin-right: 5px;
+    }
+  }
+  
+  .btn-small {
+    padding: 10px 25px;
+    font-size: 12px;
+  }
+  
+  .btn-round {
+    border-radius: 4px;
+  }
+  
+  .btn-round-full {
+    border-radius: 50px;
+  }
+  
+  .btn {
+    &.active:focus, &:active:focus, &:focus {
+      outline: 0;
+    }
+  }
+  
+  /********************************/
+  /*          Contact Ends        */
+  /********************************/
