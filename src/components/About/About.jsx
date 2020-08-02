@@ -25,7 +25,7 @@ class About extends Component {
                                         <h2 className="mt-3 mb-4 position-relative content-title">Backend</h2>
                                         <p className="mb-5" style={{color: 'white'}}>Python, Java, MongoDB, MySQL, C#, C++</p>
                                         <h2 className="mt-3 mb-4 position-relative content-title">Framework</h2>
-                                        <p className="mb-5" style={{color: 'white'}}>Django, PyQT, .NET, Koa</p>
+                                        <p className="mb-5" style={{color: 'white'}}>Django, PyQT, .NET, Koa, React</p>
                                     </div>
                                 </Col>
 
